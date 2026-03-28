@@ -1,0 +1,15 @@
+---
+.title = "Homepage",
+.date = "2026-03-29",
+.author = "apor",
+.layout = "index.shtml",
+.draft = false,
+--- 
+
+# Hello! I'm an Electronics Technician.
+
+I specialize in hardware and low-level programming.
+
+### Skills:
+- **Languages:** C, C++, and learning Zig.
+- **Hardware:** Circuit design, Soldering, Oscilloscopes.
