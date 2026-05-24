@@ -1,0 +1,3 @@
+[submodule "teg"]
+	path = teg
+	url = https://codeberg.org/9vlc/teg.git
