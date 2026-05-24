@@ -1,5 +1,5 @@
-!inc data/shared.teg
+!inc data/shared.teg.inc
 !var script=data/scripts/time.js
 !start
-!inc data/bars.teg
-!inc data/window.teg
+!inc data/bars.teg.inc
+!inc data/window.teg.inc
