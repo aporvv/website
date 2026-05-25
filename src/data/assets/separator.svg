@@ -1,9 +1,9 @@
-<svg width="10" height="16" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<svg width="32" height="64" xmlns="http://www.w3.org/2000/svg" version="1.1">
  <g id="Layer_1">
   <title>Layer 1</title>
-  <g id="svg_4">
-   <line id="svg_2" y2="32.43886" x2="4.52729" y1="-0.04602" x1="4.52729" stroke="#3f3d3a" fill="none"/>
-   <line id="svg_3" y2="32.43886" x2="5.47271" y1="-0.04602" x1="5.47271" stroke="#4d4b45" fill="none"/>
+  <g id="svg_3">
+   <line stroke-width="4" stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_1" y2="66.69858" x2="14" y1="-2.52081" x1="14" stroke="#e4dccd" fill="none"/>
+   <line stroke-width="4" stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_2" y2="66.5208" x2="18" y1="-2.69859" x1="18" stroke="#f5f1ea" fill="none"/>
   </g>
  </g>
 </svg>

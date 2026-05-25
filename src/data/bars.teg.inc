@@ -1,11 +1,23 @@
 !e nav topbar
 
 !e div left_group
-![start](data/assets/microsoft.png)
+!e details startmenu
+
+!e summary menu-trigger
+![start](data/assets/logo.png)
 
 !e div hide_on_mobile 
 Applications 
 !e div hide_on_mobile
+!e summary menu-trigger
+
+!e nav menu-content
+![](data/assets/teg.gif)
+![](data/assets/Artix.gif)
+![](data/assets/js.gif)
+!e nav menu-content
+
+!e details startmenu
 
 !e div hide_on_mobile
 Places
@@ -26,7 +38,7 @@ apor
 ![msg](data/assets/user-available-panel.svg)
 
 !e div time
-time placeholder
+Mon Jan 1 00:00 AM
 !e div time
 
 ==![mail](data/assets/indicator-messages.svg)
@@ -50,8 +62,12 @@ time placeholder
 
 !e div left_group
 ![desk](data/assets/user-desktop.svg)
-
 ![](data/assets/hamburger-menu.svg)
+!e div active_window
+!eoc img file_browser_icon src="data/assets/folder.svg"
+!eoc img gedit_icon src="data/assets/accessories-text-editor.svg"
+!eoc div active_window_text
+!e div active_window
 !e div left_group
 
 !e div right_group

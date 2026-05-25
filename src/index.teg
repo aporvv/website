@@ -1,5 +1,27 @@
 !inc data/shared.teg.inc
-!var script=data/scripts/time.js
+!var script=data/scripts/time.js; data/scripts/drag.js
 !start
 !inc data/bars.teg.inc
+
+!eoc input #show_site type="radio" name="folder-toggle" checked hidden
+!eoc input #show_blog type="radio" name="folder-toggle" hidden
+!eoc input #show_blog_gedit type="radio" name="folder-toggle" hidden
+!e label desktop_icon for="show_site"
+!eoc img desktop_icon_icon src="data/assets/folder.svg"
+!e div
+site
+!e div
+!e label desktop_icon
+
+!e label desktop_icon for="show_blog"
+!eoc img desktop_icon_icon src="data/assets/folder.svg"
+!e div
+blog
+!e div
+!e label desktop_icon
+
+!eoc input #hide type="radio" name="folder-toggle" hidden
 !inc data/gedit_window.teg.inc
+!inc data/blog_gedit_window.teg.inc
+!inc data/file_window.teg.inc
+

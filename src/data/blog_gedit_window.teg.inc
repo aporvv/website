@@ -1,5 +1,5 @@
 ==!e div window_container
-!e div window id="gedit"
+!e div window id="blog_gedit"
 
 !e div titlebar
 
@@ -12,7 +12,7 @@
 !e div buttons
 
 !e div win_title
-mainpage (~/Desktop/site) - gedit
+blog (~/Desktop/blog) - gedit
 !e div win_title
 !e div titlebar
 
@@ -54,23 +54,17 @@ Undo
 !e div actionbar
 
 !e div tab_container
-!e a _ href="#home" class="tab-link link-home"
+!e a _ class="tab-link link-blog"
 ![icon](data/assets/text-x-preview.svg)
-Home
-![close](data/assets/window-close.svg)
-!e a _
-
-!e a _ href="#about" class="tab-link link-about"
-![icon](data/assets/text-x-preview.svg)
-About
+Blog
 ![close](data/assets/window-close.svg)
 !e a _
 !e div tab_container
 
 !e div content-container
 
-!inc contents/home.teg.inc
-!inc contents/about.teg.inc
+!inc contents/blog1.teg.inc
+!inc contents/blog2.teg.inc
 
 !e div content-container
 
