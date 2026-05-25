@@ -2,4 +2,4 @@
 !var script=data/scripts/time.js
 !start
 !inc data/bars.teg.inc
-!inc data/window.teg.inc
+!inc data/gedit_window.teg.inc

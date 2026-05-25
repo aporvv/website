@@ -102,9 +102,9 @@
     background-color: #f2f1f0;
 }
 
-.tab {
+.tab-link {
     color: #787470;
-    background: linear-gradient(0deg,rgba(247, 246, 246, 1) 0%, rgba(254, 254, 254, 1) 100%);
+    background: linear-gradient(0deg,rgba(226, 224, 222, 1) 0%, rgba(235, 233, 232, 1) 100%);
     
     display: flex;
     align-items: center;
@@ -114,9 +114,13 @@
 
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+
+    box-shadow: inset 0 4px 0 0 #f2f1f0,  /* Top */
+                inset 2px 0 0 0 #f2f1f0,  /* Left */
+                inset -2px 0 0 0 #f2f1f0; /* Right */
 }
 
-.tab img, .infobar img {
+.tab img, .infobar img, .tab-link img {
     height: 70%;
     width: 24px;
     box-sizing: border-box;
@@ -127,10 +131,48 @@
     height: 100%;
 }
 
+.content-container {
+    /*height: 100%*/
+    flex: 1;
+    min-height: 0;
+}
+
 .content {
     color: #4c4c4c;
     background-color: #ffffff;
     height: 100%;
+    
+    box-shadow: inset 0 0 0 2px #f7f6f6;
+        
+    display: none;
+    overflow: hidden;
+    overflow-y: auto;
+
+    scrollbar-width: thin;
+    scrollbar-color: #f07746 #ffffff;
+}
+
+/* webkit shit */
+.scrollable-div::-webkit-scrollbar {
+  width: 8px;               /* Width of vertical scrollbar */
+  height: 8px;              /* Height of horizontal scrollbar */
+}
+
+/* The background track */
+.scrollable-div::-webkit-scrollbar-track {
+  background: #ffffff; 
+  border-radius: 4px;
+}
+ 
+/* The draggable handle/thumb */
+.scrollable-div::-webkit-scrollbar-thumb {
+  background: #f07746; 
+  border-radius: 4px;
+}
+
+/* The handle on hover */
+.scrollable-div::-webkit-scrollbar-thumb:hover {
+  background: #f07746; 
 }
 
 .infobar {
@@ -147,3 +189,32 @@
 .info_spacer {
     width: 20px;
 }
+
+/* tab switcher */
+
+.content:target {
+  display: block;
+}
+
+.content-container:not(:has(:target)) #home {
+  display: block;
+}
+
+.tab-link {
+    text-decoration: none;
+    height: 1.75em;
+}
+
+.tabs_container:not(:has(:target)) .link-home {
+    background: linear-gradient(0deg,rgba(247, 246, 246, 1) 0%, rgba(254, 254, 254, 1) 100%);
+    box-shadow: none;
+}
+
+.window:has(#home:target) .link-home,
+.window:has(#about:target) .link-about {
+    background: linear-gradient(0deg,rgba(247, 246, 246, 1) 0%, rgba(254, 254, 254, 1) 100%);
+    box-shadow: none;
+    position: relative;
+    z-index: 2;
+}
+

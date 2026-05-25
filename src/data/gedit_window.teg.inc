@@ -52,25 +52,25 @@ Undo
 !e div actionbar
 
 !e div tab_container
-!e div tab
+!e a _ href="#home" class="tab-link link-home"
 ![icon](data/assets/text-x-preview.svg)
 Home
 ![close](data/assets/window-close.svg)
-!e div tab
+!e a _
 
+!e a _ href="#about" class="tab-link link-about"
+![icon](data/assets/text-x-preview.svg)
+About
+![close](data/assets/window-close.svg)
+!e a _
 !e div tab_container
 
-!e div content
-!eoc br
-# Hello! I'm an Electronics Technician.
+!e div content-container
 
-I specialize in hardware and low-level programming.
+!inc contents/home_content.teg.inc
+!inc contents/about_content.teg.inc
 
-### Skills:
-- **Languages:** C, C++, and learning Zig.
-- **Hardware:** Circuit design, Soldering, Oscilloscopes.
-
-!e div content
+!e div content-container
 
 !e div infobar
 Plaintext
