@@ -1,6 +1,6 @@
 !e div content id="about"
 
-# I'm Aporv. 🦊
+# I'm Apor. 🦊
 
 ## // info
 I’m a **16-year-old** currently training to be an **electronics technician**. When I’m not studying how circuits *should* work, I’m usually busy breaking and fixing things that probably belonged in a museum or a landfill ten years ago.
@@ -17,9 +17,9 @@ Most of the shit I make is completely useless. I don't build things because ther
 ---
 
 ## // interests & identity
-* **Furry:** I’m a fox. Usually found lurking in the tech side of the fandom.
-* **Hardware:** Still learning, but usually found yelling at microcontrollers.
-* **Software:** Writing things either because I'm pissed, or because I feel like others might find it funny (weird)
+- **Furry:** I’m a fox. Usually found lurking in the tech side of the fandom.
+- **Hardware:** Still learning, but usually found yelling at microcontrollers.
+- **Software:** Writing things either because I'm pissed, or because I feel like others might find it funny (weird)
 
 ## // current obsession
 **symbian.**
@@ -30,8 +30,8 @@ Check out [epoc](https://github.com/aporvv/epoc) if you want some bullshit to he
 ## // contact me
 If you want to talk, trade old parts, or help me with a useless project:
 
-* **Discord (most active):** `apor_v`
-* **Matrix** [@vaporgame:matrix.org](https://matrix.to/#/@vaporgame:matrix.org)
-* **GitHub:** [aporvv](https://github.com/aporvv)
+- **Discord (most active):** `apor_v`
+- **Matrix** [@vaporgame:matrix.org](https://matrix.to/#/@vaporgame:matrix.org)
+- **GitHub:** [aporvv](https://github.com/aporvv)
 
 !e div content

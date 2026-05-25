@@ -194,6 +194,7 @@
 
 .content:target {
   display: block;
+  padding: 3px;
 }
 
 .content-container:not(:has(:target)) #home {
@@ -205,7 +206,7 @@
     height: 1.75em;
 }
 
-.tabs_container:not(:has(:target)) .link-home {
+.window:not(:has(:target)) .link-home {
     background: linear-gradient(0deg,rgba(247, 246, 246, 1) 0%, rgba(254, 254, 254, 1) 100%);
     box-shadow: none;
 }

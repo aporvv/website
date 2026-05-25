@@ -20,6 +20,12 @@ body {
     background-position: center;
     height: 100vh;
     overflow-x: hidden;
+
+    cursor: url('assets/left_ptr.png') 7 4, auto;
+}
+
+a, button {
+    cursor: url('assets/hand2.png') 9 5, pointer;
 }
 
 .topbar, .bottombar {
