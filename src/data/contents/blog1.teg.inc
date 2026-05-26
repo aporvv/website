@@ -8,7 +8,7 @@ I got the idea to style the site after old Ubuntu, since i love the look of old 
 
 I chose Ubuntu 10.04LTS Lucid Lynx for no particular reason, other than I saw it first and liked it. 
 
-I wrote the site in two days, using [teg](https://paidbsd.org/teg), CSS, and a few lines of JS just to show the time on the top bar.
+I wrote the site in two days, using [teg](https://paidbsd.org/teg), CSS, and a few lines of JS just to show the time on the top bar and make windows draggable.
 
 This does mean, that the website content renders and functions perfectly with JS disabled :3.
 
